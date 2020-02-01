@@ -1,0 +1,183 @@
+body{
+    font-family:  'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+/*header*/
+#header-a{
+    background-color: #1f9238;
+    height: 42px;
+}
+
+#header-a h6{
+    display: inline;
+    color: white;
+    font-size: 13px;
+}
+#header-a .header-contacts{
+    padding-top: 7px;
+}
+.btn{
+    float: right;
+    font-size: 10px;
+    border-radius: 0px;
+    margin-right: 30px;
+    width: 150px;
+    height: 25px;
+}
+#btn-text{
+    margin-left: -40px;
+    font-size: 12px;
+}
+#header-b{
+    background-color: white;
+    height: 13vh;
+}
+#logo {
+    height: auto;
+    link: url("C:\Users\winstone.ochieng\PhpstormProjects\MIT2020Evening\simba\simbahome.html");
+}
+.nav-main{
+    float: right;
+    margin-top: 30px;
+
+}
+.nav-main ul{
+    list-style-type: none;
+}
+.nav-main ul li{
+    display: inline;
+    font-size: 18px;
+    transition: 6s easy;
+}
+.nav-main ul li a{
+    text-decoration: none;
+    padding: 3px 10px;
+    background-color: transparent;
+    color: black;
+    font-family: sans-serif;
+}
+.nav-main ul li a:hover{
+    color: green;
+}
+#section-carousel{
+    margin-top: -15px;
+}
+#section-carousel img{
+    height: 80vh;
+}
+#section-a{
+    text-align: center;
+}
+#section-b{
+    height: 180vh;
+}
+.card{
+    /*background-color: #1e7e34;*/
+    height:50vh;
+    border-radius: 0px;
+}
+.card .card-img{
+    overflow: hidden;
+    height: 25vh;
+    width: auto;
+    border-radius: 0px;
+}
+#section-a .container-section-a{
+    color: #686868;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#section-c{
+    height: 100vh;
+    width: auto;
+}
+#section-c .container-fluid{
+    text-align: left;
+}
+#section-c img{
+    height: 65vh;
+    width: 50vh;
+    float: right;
+    margin-right: 40px;
+}
+#section-c #section-c-left h6{
+    font-weight: bold;
+}
+#section-c #section-c-right h5{
+    text-align: center;
+    font-weight: bold;
+}
+/*footer*/
+#section-footer{
+    background-color: #464646;
+    height: 17vh;
+}
+#section-footer p{
+    color: white;
+    padding: 30px;
+    font-size: 25px;
+    font-family: Helvetica, monospace;
+    margin-right: 15em;
+}
+#contactbtn-footer{
+    background-color: green;
+    top: 25px;
+    float:right;
+    margin-top: -80px;
+    border: transparent;
+    margin-right: 75px;
+    width: 15em;
+    height: 3em;
+    color: white;
+    font-weight: bold;
+}
+/*homepage carousel2*/
+
+/*Contact form*/
+#contactform textarea {
+    height:100px;
+    max-width:100%;
+    resize:none;
+}
+.container-contactform fieldset{
+
+}
+
+#contactform button[type="submit"] {
+    cursor:pointer;
+    width:25%;
+    border:none;
+    background: #56861e;
+    color:#FFF;
+    margin:0 0 10px;
+    padding: 10px;
+    font-size:15px;
+}
+#contactform button[type="submit"]:hover {
+    background: #cca218;
+    -webkit-transition:background 0.3s ease-in-out;
+    -moz-transition:background 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+#contactform button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contactform input:focus, #contact textarea:focus {
+    outline:0;
+    border:1px solid #999;
+}
+::-webkit-input-placeholder {
+    color:#888;
+}
+:-moz-placeholder {
+    color:#888;
+}
+::-moz-placeholder {
+    color:#888;
+}
+:-ms-input-placeholder {
+    color:#888;
+}
