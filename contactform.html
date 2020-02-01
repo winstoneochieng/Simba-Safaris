@@ -8,88 +8,121 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="simba.css">
-    <title>Hello, world!</title>
+    <title>SimbaSafaris</title>
 </head>
 <body>
-<!--header-->
-<header class="sticky-top">
-    <div id="header-a">
-        <div class="header-contacts">
-            <h6>+254704855777</h6>
-            <h6>admin@simbasafari.com</h6>
-            <button type="button" class="btn btn-light"><span id="btn-text">English</span></button>
-        </div>
+<div id="header-a">
+    <div class="header-contacts">
+        <h6>+254704855777</h6>
+        <h6>admin@simbasafari.com</h6>
     </div>
-    <div id="header-b">
-        <div class="nav-main">
-            <ul>
-                <li class="active"><a href="simbahome.html">HOME</a></li>
-                <li><a href="bushsafaris.html">BUSH SAFARIS</a></li>
-                <li><a href="#">BEACH HOLIDAYS</a></li>
-                <li><a href="#">GETAWAYS</a></li>
-                <li><a href="#">INTERNATIONAL</a></li>
-                <li><a href="#">SEASONAL</a></li>
-                <li><a href="contactform.html">CONTACT US</a></li>
-            </ul>
-        </div>
-        <div id="logo">
-            <img src="images/images.png" alt="" style="width: 80px" >
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="column">
+</div>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href=""><img src="images/images.png" alt="">SIMBA SAFARIS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="simbahome.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="bushsafaris.html">BUSH SAFARIS<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="beachholidays.html">BEACH HOLIDAYS <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="getaways.html">GET AWAYS <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="international.html">INTERNATIONAL <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="seasonal.html">SEASONAL <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contactform.html">CONTACT US <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    English
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">English</button>
+                    <button class="dropdown-item" type="button">Kiswahili</button>
+                    <button class="dropdown-item" type="button">Luo </button>
+                    <button class="dropdown-item" type="button">Luo </button>
+                    <button class="dropdown-item" type="button">Luo </button>
+                    <button class="dropdown-item" type="button">Luo </button>
+                </div>
             </div>
         </div>
-    </div>
+    </nav>
 
-</header><hr style="background-color: #ed9800">
+
+    </header><hr style="background-color: #ed9800">
 <!--section A-->
 <section id="section-a">
     <div class="container-section-a">
         <h3 class="content-title">
             Our Contacts | Talk To Us Now!
         </h3>
-        <p>Silverbell Safaris <br><br>
+        <p>Simba Safaris <br><br>
 
             Phone: +254 711 930 877 <br>
-            Email: info@silverbellsafaris.com <br><br><br>
+            Email: info@simbasafaris.com <br><br><br>
 
             Location: Aly’s Centre, 5th floor. At the junction of Mpaka Road & Muthithi Road.
-            Westlands, Nairobi.
+            Westlands, Nairobi. </p>
             <br>
-            You can also write to us below:
+            <span style="font-weight: bold">You can also write to us below:</span>
             <br>
         <hr>
 <!--        contact form-->
         <div class="container-contactform">
+
             <form id="contactform" method="post">
-                <fieldset>
-                    <input type="text" placeholder="Name*" name="yourname" required>
-                </fieldset>
-                <fieldset>
-                    <input type="email" name="" placeholder="Email*" required>
-                </fieldset>
-                <fieldset>
-                    <input type="tel" placeholder="Phone" required>
-                </fieldset>
-                <fieldset>
-                    <input type="text" placeholder="Country" >
-                </fieldset>
+                <div class="row">
+                    <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <fieldset>
+                            <input type="text" placeholder="Name*" name="yourname" required>
+                        </fieldset>
+                        <fieldset>
+                            <input type="tel" placeholder="Phone" required>
+                        </fieldset>
+                    </div>
+                <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <fieldset>
+                            <input type="email" name="" placeholder="Email*" required>
+                        </fieldset>
+                        <fieldset>
+                            <input type="text" placeholder="Country" >
+                        </fieldset>
+                </div>
+                </div>
                 <fieldset>
                     <textarea name="" id="" cols="30" rows="5" placeholder="Leave a message here" required></textarea>
                 </fieldset>
                 <fieldset>
-                    <button name="SUBMIT" type="submit" id="btn-submit-contactform" data-submit="...Sending">
-                        Submit
+                    <button name="Submit" type="submit" id="btn-submit-contactform" data-submit="...Sending">
+                        SUBMIT
                     </button>
                 </fieldset>
             </form>
         </div>
 
-        </p>
+
     </div>
+    <!--footer-->
+
+    <footer>
+        <p>Simba Safaris©2020 All Rights Reserved</p>
+    </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
